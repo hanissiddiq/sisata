@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sisata/detail_screen.dart';
+import 'package:sisata/main_screen.dart';
 
 void main() {
 runApp(const MyApp());
@@ -18,7 +19,8 @@ theme: ThemeData(
 colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 7, 9, 172)),
 ),
 // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-home: const DetailScreen(),
+// home: const DetailScreen(),
+home: const MainScreen(),
 );
 }
 }
